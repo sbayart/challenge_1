@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     background-image:url(../images/bg.jpg);
@@ -22,7 +24,7 @@ ul li {
     list-style: none;
     display: inline-block;
 }
-section {
+.titre {
     height: 320px;
 }
 h1 {
@@ -37,6 +39,11 @@ main {
     background-color: white;
     font-family: 'Bitter', sans-serif;
     text-align: center;
+    width: 1020px;
+    margin: auto;
+}
+#logo{
+    height: 60px;
 }
 p {
     width: 900px;
