@@ -12,7 +12,39 @@ header {
     width: 1020px;
     margin: auto;
     color: #cfa205;
+    text-align: center;
+    background-color: black;
+    text-transform: uppercase;
+    margin-top: auto;
 }
- {
+
+ul li {
     list-style: none;
+    display: inline-block;
+}
+section {
+    height: 320px;
+}
+h1 {
+    font-size: 133px;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#activity {
+    font-family: 'Bitter', serif;
+}
+main {
+    background-color: white;
+    font-family: 'Bitter', sans-serif;
+    text-align: center;
+}
+p {
+    width: 900px;
+    height: 90px;
+}
+.three-column {
+  -moz-column-count: 3;
+  -moz-column-gap: 2em;
+  margin-top: 1.60em;
+  font-size: 14px;
 }
