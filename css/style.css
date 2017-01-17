@@ -13,6 +13,6 @@ header {
     margin: auto;
     color: #cfa205;
 }
-ul li {
-
+ {
+    list-style: none;
 }
