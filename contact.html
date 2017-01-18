@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link href="./css/contact.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+        <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li class="white"><a href="index.html">Home</a></li>
+                    <li class="white">About the tests</li>
+                    <li class="white">Buy themes</li>
+                    <li class="white">Page Layouts</li>
+                    <li>Contact us</li>
+                </ul>
+            </nav>
+            <section id="titre">
+                <h1>CREATE PRO</h1>
+                <h2 class="activity">
+                    personal • business • organization
+                </h2>
+            </section>
+            <section>
+                <ul class="logo">
+                    <li class="facebooklogo">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </li>
+                    <li class="logolarge">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </li>
+                    <li class="logolarge">
+                        <i class="fa fa-google-plus-official" aria-hidden="true"></i>
+                    </li>
+                    <li class="logolarge">
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    </li>
+                    <li class="logolarge">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </section>
+        </header>
+        <main>
+            <section id="contact">
+                <form action="http://live.codincamp.fr/mail.php" method="post">
+                    <fieldset>
+                        <legend>Vos informations</legend>
+                        <label for="name">Votre nom</label>
+                        <input type="text" name="name" id="name" value="">
+                        <label for="prenom">Votre prénom</label>
+                        <input type="text" name="prename" id="prenom" value="">
+                        <label for="email">Votre Email</label>
+                        <input type="email" name="email" id="email" value="">
+                        <label for="date">Votre date de naissance</label>
+                        <input type="date" name="date" id="date" value="">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Votre commentaire</legend>
+                        <label for="subject">Sujet</label>
+                        <input type="text" name="subject" id="subject" value="">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="95" rows="10" name="message"></textarea>
+                        <input id="submit" type="submit" name="submit" value="Envoyer" />
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
