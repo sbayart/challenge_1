@@ -109,3 +109,15 @@ i {
 .article {
     font-size: 14px;
 }
+#contact {
+    background-color: #090401;
+    font-family: 'Bitter', serif;
+    color: #cfa205;
+    font-size: 14px;
+}
+fieldset {
+    height: 220px;
+}
+#information {
+    height: 220px;
+}

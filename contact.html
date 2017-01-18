@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Contact</title>
-        <link href="./css/contact.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
         <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -45,19 +45,30 @@
                 </ul>
             </section>
         </header>
-        <main>
-            <section id="contact">
+        <main id="contact">
+            <section>
                 <form action="http://live.codincamp.fr/mail.php" method="post">
                     <fieldset>
                         <legend>Vos informations</legend>
-                        <label for="name">Votre nom</label>
-                        <input type="text" name="name" id="name" value="">
-                        <label for="prenom">Votre prénom</label>
-                        <input type="text" name="prename" id="prenom" value="">
-                        <label for="email">Votre Email</label>
-                        <input type="email" name="email" id="email" value="">
-                        <label for="date">Votre date de naissance</label>
-                        <input type="date" name="date" id="date" value="">
+                            <ul id="information">
+                                <li>
+                                    <label for="name">Votre nom</label>
+                                    <input type="text" name="name" id="name" value="">
+                                </li>
+                                <li>
+                                    <label for="prenom">Votre prénom</label>
+                                    <input type="text" name="prename" id="prenom" value="">
+                                </li>
+                                <li>
+                                    <label for="email">Votre Email</label>
+                                    <input type="email" name="email" id="email" value="">
+                                </li>
+                                <li>
+                                    <label for="date">Votre date de naissance</label>
+                                    <input type="date" name="date" id="date" value="">
+                                </li>
+                            </ul>
+
                     </fieldset>
                     <fieldset>
                         <legend>Votre commentaire</legend>
