@@ -19,6 +19,9 @@ header {
     text-transform: uppercase;
     margin-top: auto;
 }
+.white {
+    color: white;
+}
 .menu {
     height: 60px;
     font-family: 'Josefin Sans', sans-serif;
@@ -26,6 +29,7 @@ header {
 .menu li{
     margin: 0 25px;
     padding-top: 15px;
+    font-weight: bold;
 }
 ul li {
     list-style: none;
@@ -70,10 +74,21 @@ i {
     width: 900px;
     height: 90px;
     margin: auto;
+    font-size: 18px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e8e8e8;
 }
 .three-column {
   -moz-column-count: 3;
-  -moz-column-gap: 2em;
+  -moz-column-gap: 60px;
   margin-top: 1.60em;
   font-size: 14px;
+  text-align: left;
+}
+.articletittle {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.article {
+    font-size: 14px;
 }
