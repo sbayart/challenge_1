@@ -64,7 +64,7 @@
                                     <input type="email" name="email" id="email" value="">
                                 </li>
                                 <li>
-                                    <label for="date">Votre date de naissance</label>
+                                    <label for="date" id="labeldate">Votre date de naissance</label>
                                     <input type="date" name="date" id="date" value="">
                                 </li>
                             </ul>
@@ -72,10 +72,15 @@
                     </fieldset>
                     <fieldset id="commentaire">
                         <legend>Votre commentaire</legend>
-                        <label for="subject">Sujet</label>
-                        <input type="text" name="subject" id="subject" value="">
-                        <label for="message">Message</label>
-                        <textarea id="message" cols="95" rows="10" name="message"></textarea>
+                            <ul>
+                                <li><label for="subject" class="labelcommentaire">Sujet</label>
+                                    <input type="text" name="subject" id="subject" value="">
+                                </li>
+                                <li>
+                                    <label for="message" class="labelcommentaire">Message</label>
+                                    <textarea id="message" cols="95" rows="10" name="message"></textarea>
+                                <li>
+                            </ul>
                         <input id="submit" type="submit" name="submit" value="Envoyer" />
                     </fieldset>
                 </form>

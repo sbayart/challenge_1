@@ -40,6 +40,7 @@ a {
 ul li {
     list-style: none;
     display: inline-block;
+    padding: 5px;
 }
 #titre {
     height: 320px;
@@ -132,9 +133,19 @@ legend {
 label {
     float: left;
     width: 100px;
-    margin: 1em;
+    margin: 6px;
 }
 #commentaire {
-    height: auto;
+    height: 350px;
     padding: 25px;
+}
+#date {
+    width: 114px;
+}
+#labeldate {
+       width: 162px;
+       text-align: start;
+}
+.labelcommentaire {
+    float: left;
 }
