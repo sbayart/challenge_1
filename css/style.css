@@ -117,7 +117,24 @@ i {
 }
 fieldset {
     height: 220px;
+    border-radius: 20px;
+    border: 3px solid #cfa205;
 }
 #information {
     height: 220px;
+}
+legend {
+    font-size: 20px;
+    margin: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+label {
+    float: left;
+    width: 100px;
+    margin: 1em;
+}
+#commentaire {
+    height: auto;
+    padding: 25px;
 }
